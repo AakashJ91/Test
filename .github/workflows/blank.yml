@@ -6,22 +6,7 @@ name: CI
 on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
-  inputs:
-      CName:
-        type: string
-        description: 'Please Provide CName'
-        default:  'automationdevops.icertis.com'
-        required: true
-      CustomerName:
-        type: string
-        description: 'Please Provide Customer Name'
-        default:  'Icertis'
-        required: true
-      tfsWorkItemNumber:
-        type: string
-        description: 'Please Provide TFS Work Item Number'
-        default:  '112244'
-        required: true
+  
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
