@@ -1,0 +1,25 @@
+name: CloudAutomation-RLDeployment-STCustomers_8.4
+on:
+  workflow_dispatch:
+    inputs:
+      CName:
+        type: string
+        description: 'Please Provide CName'
+        default:  'automationdevops.icertis.com'
+        required: true
+      CustomerName:
+        type: string
+        description: 'Please Provide Customer Name'
+        default:  'Icertis'
+        required: true
+      tfsWorkItemNumber:
+        type: string
+        description: 'Please Provide TFS Work Item Number'
+        default:  '112244'
+        required: true
+jobs:
+ steps:
+     
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Hello, world!
