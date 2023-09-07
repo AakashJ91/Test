@@ -38,3 +38,7 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+
+   
+      - name: ${{github.event.inputs.tfsWorkItemNumber}}
+        run: echo run identifier ${{ inputs.tfsWorkItemNumber }}
