@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <!-- <link rel="stylesheet" href="styles.css"> -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                
+            </div>
+            <div class="row">
+                <div class="col">
+                    <input class="form-control" id="caloutput" type="text" placeholder="Default input">
+                </div>       
+            </div> 
+            <div class="row">
+                <div class="btn-group mr-2" role="group" aria-label="First group">
+                    <button type="button" id="1" onclick="handleClick(1)" class="btn btn-outline-secondary">1</button>
+                    <button type="button" id="2" onclick="handleClick(2)" class="btn btn-outline-secondary">2</button>
+                    <button type="button" id="3" onclick="handleClick(3)"class="btn btn-outline-secondary">3</button>
+                    <button type="button" id="plus" onclick="handleClick('plus')" class="btn btn-outline-secondary">+</button>
+                  </div>
+            </div> 
+            <div class="row">
+                <div class="btn-group mr-2" role="group" aria-label="First group">
+                    <button type="button" class="btn btn-outline-secondary">4</button>
+                    <button type="button" class="btn btn-outline-secondary">5</button>
+                    <button type="button" class="btn btn-outline-secondary">6</button>
+                    <button type="button" class="btn btn-outline-secondary">-</button>
+                  </div>
+            </div> 
+            <div class="row">
+                <div class="btn-group mr-2" role="group" aria-label="First group">
+                    <button type="button" class="btn btn-outline-secondary">7</button>
+                    <button type="button" class="btn btn-outline-secondary">8</button>
+                    <button type="button" class="btn btn-outline-secondary">9</button>
+                    <button type="button" class="btn btn-outline-secondary">*</button>
+                  </div>
+            </div>
+            <div class="row">
+                <div class="btn-group mr-2" role="group" aria-label="First group">
+                    <button type="button" class="btn btn-outline-secondary">0</button>
+                    <button type="button" id="eq" onclick="handleClick('eq')" class="btn btn-outline-secondary">=</button>
+                    <button type="button" class="btn btn-outline-secondary">/</button>
+                    <button type="button" class="btn btn-outline-secondary">.</button>
+                  </div>
+            </div>                
+        </div>
+    </body>
+</html>
